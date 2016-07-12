@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+target ‘有妖气’ do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'MJRefresh', '~> 3.1.6'
+pod 'SDWebImage', '~> 3.8.1'
+end

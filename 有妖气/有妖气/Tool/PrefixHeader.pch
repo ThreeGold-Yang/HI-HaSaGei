@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  有妖气
+//
+//  Created by lanou on 16/7/11.
+//  Copyright © 2016年 抖腿宅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <UIImageView+WebCache.h>
+#import <SDImageCache.h>
+
+
+#import "UITableView+Wave.h"
+#import "RequestManger.h"
+
+
+
+// 屏幕
+#define KScreenW [UIScreen mainScreen].bounds.size.width
+#define KScreenH [UIScreen mainScreen].bounds.size.height
+// 图片
+#define placeHoldImageURL [UIImage imageNamed:@"mm1.jpg"]
+
+// 资讯首页
+#define KInfomationUrl @"http://api.toys.app887.com/api/Articles.action?keyword=&npc=%ld&"
+// 分类首页
+#define categoryURL @"http://app.u17.com/v3/app/ios/phone/sort/list?version=10.2.2.3&deviceId=7b0216f7b35412c8f99a6fbcce53fb0b09ed844b&model=iPhone&time=1461675844&sortVersion=2&from=10.2.2.3"
+// 分类详情
+#define  CateDetailURL @"http://app.u17.com/v3/app/ios/phone/list/index?version=10.2.2.3&deviceId=7b0216f7b35412c8f99a6fbcce53fb0b09ed844b&model=iPhone&time=1462155631&page=%ld&argName=%@&argValue=%@&size=20&from=10.2.2.3&"
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
