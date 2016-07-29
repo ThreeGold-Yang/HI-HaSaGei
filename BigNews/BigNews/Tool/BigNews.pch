@@ -1,0 +1,41 @@
+//
+//  BigNews.pch
+//  BigNews
+//
+//  Created by lanou on 16/7/15.
+//  Copyright © 2016年 抖腿宅. All rights reserved.
+//
+
+#ifndef BigNews_pch
+#define BigNews_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// 尺寸
+#define KScreenW  [UIScreen mainScreen].bounds.size.width
+#define KScreenH  [UIScreen mainScreen].bounds.size.height
+
+// 工具类
+#import "CarouselView.h"
+#import "UserInfoManager.h"
+#import "RequestManger.h"
+#import "justHeight.h"
+#import <AVFoundation/AVFoundation.h>
+#import <Foundation/Foundation.h>
+#define placeHoldImageURL  [UIImage imageNamed:@"bj7.jpg"]
+#import "UIImage+FN.h"
+
+// 第三方
+#import <UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import <AFNetworking.h>
+#import "CYVideoPlayerView.h"
+#import "CYFullViewController.h"
+#import "Masonry.h"
+// 网络
+#define KHeadlinesURL @"http://c.3g.163.com/nc/article/headline/T1348647853363/20-20.html"
+
+
+#endif /* BigNews_pch */
